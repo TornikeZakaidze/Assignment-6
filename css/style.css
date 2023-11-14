@@ -1,0 +1,122 @@
+body {
+    width: 1440px;
+    height: 1594px;
+
+}
+.logo{
+    padding-left: 99px;
+    padding-top: 20px;
+    vertical-align: middle;
+    margin-bottom: 18px;
+}
+.headList {
+    float: right;
+    padding-top: 33px;
+    padding-right: 28px;
+}
+.list {
+    display: inline-block;
+    padding-right: 50px;
+    font-family: Helvetica;
+}
+
+/* middle part!!!!! */
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center
+}
+.textInImage {
+    position: absolute;
+    text-align: center;
+}
+.textInImage1 {
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.textInImage2 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+/* footer!!! */
+
+.bottomList {
+    margin-top: 84px;
+    margin-left: 100px;
+    display: inline-block;
+    margin-right: 83px;
+}
+.discover {
+    font-family: Helvetica;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+}
+.hotServices {
+    margin-top: 9px;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.visitText {
+    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 37px;
+}
+
+/* images with texts list!!! */
+
+footer {
+    display: flex;
+}
+.imagesSection {
+    margin-top: 84px;
+    width: 957px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.imagesWithTexts {
+    margin-right: 33px;
+    margin-bottom: 56px;
+}
+.belowImgTitle {
+    margin-top: 23px;
+    margin-bottom: 9px;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.belowImgText {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+
+
