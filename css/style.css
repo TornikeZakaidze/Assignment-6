@@ -1,24 +1,46 @@
-body {
-    width: 1440px;
-    height: 1594px;
-
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo{
     padding-left: 99px;
     padding-top: 20px;
-    vertical-align: middle;
     margin-bottom: 18px;
 }
 .headList {
-    float: right;
-    padding-top: 33px;
-    padding-right: 28px;
+    display: flex;
 }
 .list {
-    display: inline-block;
     padding-right: 50px;
     font-family: Helvetica;
 }
+.burgerList {
+    display: none;
+}
+.burgermenu:active {
+    .burgerList {
+        display: block;
+        background-color: grey;
+        width: 50px;
+    }
+}
+.line {
+    background-color: black;
+    height: 5px;
+    width: 30px;
+    display: none;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .headList {
+      display: none;
+    }
+    .line {
+        display: block;
+    }
+  }
 
 /* middle part!!!!! */
 
@@ -36,8 +58,6 @@ body {
     font-family: Helvetica;
     font-size: 79px;
     font-weight: 700;
-    line-height: 91px;
-    letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;    
 }
@@ -45,18 +65,18 @@ body {
     font-family: Helvetica;
     font-size: 19px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
     color: #FFFFFF;
+}
+.bigImage {
+    width: 100%;
 }
 
 /* footer!!! */
 
 .bottomList {
-    margin-top: 84px;
-    margin-left: 100px;
-    display: inline-block;
-    margin-right: 83px;
+    padding-top: 84px;
+    padding-left: 100px;
+    padding-right: 83px;
 }
 .discover {
     font-family: Helvetica;
@@ -72,10 +92,10 @@ body {
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
-    text-align: left;
 
 }
 .visitText {
+    max-width: 235px;
     font-family: Helvetica;
     font-size: 20px;
     line-height: 23px;
@@ -87,11 +107,11 @@ body {
 /* images with texts list!!! */
 
 footer {
-    display: flex;
+    display: flex; 
 }
 .imagesSection {
     margin-top: 84px;
-    width: 957px;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
 }
@@ -116,7 +136,7 @@ footer {
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
-    text-align: left; 
+    text-align: left;
 }
 
 
